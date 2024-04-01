@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 140px;
+    position : absolute;
+    margin-left: 70px;
+}
+
+#nav{
+    background-color: blue;
+}
+
+input{
+    width: 30%;
+    height: 25%;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    
+ 
+}
+
+input:focus{
+    outline: none;
+}
+.button-1{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 7px 20px 7px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.button-2{
+    color: white;
+    background-color: transparent;
+    padding: 7px 20px 7px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+@media(max-width:1000px) {
+    .button-main{
+        display: none;
+    }
+    input{
+        width: 70%;
+    }
+    
+}
+
+/* navbar ended  */
+
+.imges{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    align-items: center;
+
+}
+
+.image-1 img{
+    width: 40px; 
+    text-align: center;
+}
+.image-1{
+    text-align: center;
+    padding: 14px 20px 14px 20px;
+}
+.image-1:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-2{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-2:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-2 img{
+    width: 40px;
+}
+.image-3{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-3:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-3 img{
+    width: 60px;
+}
+.image-4{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-4:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-4 img{
+    width: 60px;
+}
+.image-5{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-5:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-5 img{
+    width: 60px;
+}
+.image-6{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-6:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-6 img{
+    width: 60px;
+}
+.image-7{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-7:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-7 img{
+    width: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.image-8{
+    text-align: center;
+    padding: 14px 15px 14px 15px;
+}
+.image-8:hover{
+    background-color: rgb(223, 216, 216);
+    border-bottom: 3px solid  blue;
+}
+.image-8 img{
+    width: 60px;
+}
