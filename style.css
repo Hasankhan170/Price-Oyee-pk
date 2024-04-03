@@ -1,59 +1,77 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
 
-.logo{
-    width: 140px;
-    position : absolute;
-    margin-left: 70px;
-}
 
-#nav{
+.header {
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
+    padding: 15px;
+    align-items: center;
+    overflow-x: hidden; 
 }
 
-input{
-    width: 30%;
-    height: 25%;
-    border-radius: 25px;
-    font-size: 20px;
-    padding: 12px 40px 12px 20px;
+.part-1, .part-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search input {
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
     border: none;
-    
- 
-}
-
-input:focus{
     outline: none;
 }
-.button-1{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    padding: 7px 20px 7px 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-}
-.button-2{
-    color: white;
-    background-color: transparent;
-    padding: 7px 20px 7px 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 1px solid white;
 
+.logo {
+    width: 150px;
 }
-@media(max-width:1000px) {
-    .button-main{
+.dono-btn{
+    display: flex;
+    gap: 10px;
+    width: auto;
+}
+.button-1{
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+.button-2{
+    border: none;
+    background-color:transparent;
+    border: 1px solid #fff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+@media screen and (max-width:992px){
+    .dono-btn {
         display: none;
     }
-    input{
-        width: 70%;
-    }
-    
 }
+@media screen and (max-width:600px) {
+    
+    .search input {
+        width: 200px;
+    }
+
+    .header {
+        justify-content: space-between;
+       
+    }
+    .logo {
+       display: none;
+    }
+   
+}
+
 
 /* navbar ended  */
 
@@ -62,16 +80,16 @@ input:focus{
     justify-content: center;
     background-color: whitesmoke;
     align-items: center;
-
 }
 
 .image-1 img{
-    width: 40px; 
+    width: 55px; 
     text-align: center;
+    padding-top: 10px;
 }
 .image-1{
     text-align: center;
-    padding: 14px 20px 14px 20px;
+    padding: 8px 15px 14px 15px;
 }
 .image-1:hover{
     background-color: rgb(223, 216, 216);
@@ -80,13 +98,17 @@ input:focus{
 .image-2{
     text-align: center;
     padding: 14px 15px 14px 15px;
+
 }
 .image-2:hover{
     background-color: rgb(223, 216, 216);
     border-bottom: 3px solid  blue;
 }
 .image-2 img{
-    width: 40px;
+    text-align: center;
+    width: 50px;
+    padding-top: 10px;
+
 }
 .image-3{
     text-align: center;
@@ -141,13 +163,13 @@ input:focus{
     border-bottom: 3px solid  blue;
 }
 .image-7 img{
-    width: 66px;
+    width: 65px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .image-8{
     text-align: center;
-    padding: 14px 15px 14px 15px;
+    padding: 14px 5px 14px 5px;
 }
 .image-8:hover{
     background-color: rgb(223, 216, 216);
@@ -155,4 +177,62 @@ input:focus{
 }
 .image-8 img{
     width: 60px;
+}
+
+@media (max-width:768px) {
+    .image-1{
+        display: none;
+}
+    .image-7{
+        display: none;
+}
+}
+@media (max-width:630px) {
+    .image-2{
+        display: none;
+}
+}
+@media (max-width:450px) {
+    .image-4{
+        display: none;
+}
+}
+@media (max-width:330px) {
+    .image-5{
+        display: none;
+}
+}
+
+
+/* card-area  */
+.cards{
+    background-color: rgb(247, 247, 247);
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card-1 p{
+    font-weight: bold;
+}
+
+.card-2 p{
+    color: blue;
+}
+.green{
+    color: green;
+    border: none;
+    outline: none;
+    position: relative;
+    display: flex;
+    float: right;
+}
+.card-img{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#card-border{
+    border: transparent;
 }
