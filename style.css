@@ -440,3 +440,18 @@
     display: flex;
     gap: 10px;
 }
+
+
+/* youtube-videos  */
+
+.youtube-videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media (max-width:375px) {
+    .youtube-videos{
+        display: none;
+    }
+    
+}
